@@ -76,7 +76,7 @@ Genera una query SQL a partire da una domanda in linguaggio naturale, utilizzand
 
 #### 2.1.2 Response
 
-**Successo con risultati (200 OK):**
+**Successo con risultati (200 OK):**  
 **Nota: rows_count e result verranno restituiti solo se l'api viene chiamata da AI-Sql-Microservice stesso per eseguire i test**
 
 ```json
