@@ -98,6 +98,7 @@ Genera una query SQL a partire da una domanda in linguaggio naturale, utilizzand
   "success": true,
   "data": {
     "is_valid": false,
+    "ai_sql":"select * from..."
     "error": "Syntax error near 'FORM' at line 1",
     "error_code": "SQL_SYNTAX_ERROR",
     "result": []
