@@ -85,7 +85,7 @@ Genera una query SQL a partire da una domanda in linguaggio naturale, utilizzand
     "is_valid": true,
     "ai_sql": "select * from...",
     "execution_time_ms": 45,
-    "rows_count": 150,
+    "rows_count": 2,
     "result": [{ "id": 1 }, { "id": 2 }]
   },
   "timestamp": "2025-10-11T14:30:00Z"
@@ -225,7 +225,7 @@ Esegue un test di validazione di una query SQL verificandone la correttezza sint
   "data": {
     "is_valid": true,
     "execution_time_ms": 45,
-    "rows_count": 150,
+    "rows_count": 2,
     "result": [{ "id": 1 }, { "id": 2 }]
   },
   "timestamp": "2025-10-11T14:30:00Z"
