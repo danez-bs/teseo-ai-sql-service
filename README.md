@@ -84,6 +84,7 @@ Genera una query SQL a partire da una domanda in linguaggio naturale, utilizzand
   "data": {
     "is_valid": true,
     "ai_sql": "select * from...",
+    "used_tokens_count": 7,
     "execution_time_ms": 45,
     "rows_count": 2,
     "result": [{ "id": 1 }, { "id": 2 }]
@@ -100,6 +101,7 @@ Genera una query SQL a partire da una domanda in linguaggio naturale, utilizzand
   "data": {
     "is_valid": false,
     "ai_sql": "select * from...",
+    "used_tokens_count": 7,
     "error": "Syntax error near 'FORM' at line 1",
     "error_code": "SQL_SYNTAX_ERROR",
     "result": []
