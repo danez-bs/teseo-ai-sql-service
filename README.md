@@ -227,7 +227,8 @@ Esegue un test di validazione di una query SQL verificandone la correttezza sint
   "success": true,
   "data": {
     "is_valid": true,
-    "execution_time_ms": 45,
+    "db_cpu_time_ms": 45,
+    "round_trip_time_ms": 60,
     "rows_count": 2,
     "result": [{ "id": 1 }, { "id": 2 }]
   },
